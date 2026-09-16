@@ -2,7 +2,7 @@
 
 ## 선택한 도구와 실행 환경
 
-OS는 Windows이며 Git 버전은 `2.47.1.windows.2`이다. 선택한 에이전트는 Claude Code `2.1.50`이다. Claude Code는 설치되어 있었지만 로그인되지 않아 실행 요청은 실패했다. 자세한 내용은 [environment.txt](evidence/environment.txt)를 참고한다.
+OS는 Windows이며 Git 버전은 `2.47.1.windows.2`이다. 선택한 에이전트는 Claude Code `2.1.50`이다. `/login` 완료 후 clone한 저장소 루트에서 정상 실행했다. 자세한 내용은 [environment.txt](evidence/environment.txt)를 참고한다.
 
 ## Clone과 원격 저장소 확인
 
@@ -10,7 +10,7 @@ OS는 Windows이며 Git 버전은 `2.47.1.windows.2`이다. 선택한 에이전�
 
 ## AI 최초 결과와 한계
 
-저장소 루트에는 프로젝트 파일이 없어 목적과 실행 방법을 확인할 수 없다. Claude Code 최초 요청은 로그인 오류로 중단되었다. 실제 파일 상태를 바탕으로 작성한 초안은 [ai_initial.md](evidence/ai_initial.md)에서 확인한다.
+저장소 루트에는 프로젝트 파일이 없어 프로젝트 목적과 실행 방법은 확인할 수 없다. Claude Code가 실제 파일을 읽어 작성한 최초 결과는 [ai_initial.md](evidence/ai_initial.md)에서 확인한다.
 
 ## 학생의 검증과 수정
 
@@ -18,7 +18,7 @@ OS는 Windows이며 Git 버전은 `2.47.1.windows.2`이다. 선택한 에이전�
 
 ## Commit과 Push 결과
 
-문서와 증거 파일의 첫 번째 commit은 `97d8555`이며 원격 `main`에 push되었다. 첫 번째 commit의 SHA는 [content_commit.txt](evidence/content_commit.txt)에 기록했다. Claude Code 로그인 문제는 [verification.md](evidence/verification.md)에 기록했다.
+Claude Code가 생성한 문서와 검증 증거의 콘텐츠 commit은 `eb1b6c1`이며 원격 `main`에 push되었다. SHA는 [content_commit.txt](evidence/content_commit.txt)에 기록했다. 검증 결과는 [verification.md](evidence/verification.md)에 기록했다.
 
 ## 문서
 

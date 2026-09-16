@@ -5,3 +5,6 @@ Claude Code 최초 실행 결과: 실패
 
 git diff --check: 통과
 예상 변경 범위: Week03/
+
+Claude Code 로그인 후 실제 문서 생성 성공
+실제 콘텐츠 commit: eb1b6c1
