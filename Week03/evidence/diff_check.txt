@@ -1,0 +1,2 @@
+Claude Code 최초 실행 결과: 실패
+원인: Not logged in; Please run /login

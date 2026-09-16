@@ -1,0 +1,5 @@
+OS: Windows
+Git: git version 2.47.1.windows.2
+Selected agent: Claude Code
+Agent version: 2.1.50
+Launch result: clone한 저장소 루트에서 실행 예정
